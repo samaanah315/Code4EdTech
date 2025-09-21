@@ -4,81 +4,59 @@ Team Phoenix – Code4Tech Challenge | Generative AI Theme
 
 Project Overview
 
-This project automates resume evaluation for recruitment using a hybrid AI approach. It combines rule-based matching and LLM-powered semantic analysis to generate a Relevance Score, identify missing skills, and provide a fit verdict for each candidate.
-
-Key benefits:
-
-Saves time for recruiters.
-
-Ensures consistent evaluations across candidates.
-
-Provides actionable feedback to students for improving resumes.
-
-Scalable solution for handling thousands of resumes efficiently.
-
-Features
-
-Upload Job Descriptions (JD) and Resumes.
-
-Parsing and text extraction from PDF/DOCX resumes.
-
-Hard Matching: Keyword & skill checks (exact/fuzzy).
-
-Semantic Matching: Contextual analysis using LLM embeddings.
-
-Generates:
+This project automates resume evaluation for recruitment using a hybrid AI approach. It combines rule-based hard matching and LLM-powered semantic analysis to generate:
 
 Relevance Score (0–100)
 
 Fit Verdict: High / Medium / Low
 
-Missing Skills & Certifications
+Missing skills & personalized improvement suggestions
 
-Personalized improvement feedback
+It saves recruiters time, ensures consistent evaluations, and provides actionable feedback to students.
 
-Centralized recruiter dashboard for search, filter, and shortlist.
+Features
 
+Upload Job Descriptions (JDs) and Resumes (PDF/DOCX)
+
+Parsing & text extraction (PyMuPDF, docx2txt)
+
+Hard Match: Skill & keyword checks (exact/fuzzy)
+
+Semantic Match: Contextual similarity using embeddings & LLM (partial)
+
+Output Generation: Score, verdict, missing skills, summary cards
+
+Dashboard: Search, filter, shortlist candidates
+
+Database: Stores results & logs (SQLite)
+
+Completion Status
+Feature / Component	Status	% Completion
+Problem Statement	✅ Done	100%
+Objective	✅ Done	100%
+Sample Data	✅ Done	100%
+Resume + JD Parsing	✅ Done (PyMuPDF, docx2txt)	100%
+Hard Match Scoring	✅ Done	100%
+Semantic Match Scoring	✅ Done (placeholder using embeddings)	80%
+Weighted Score & Verdict	✅ Placeholder done	80%
+Output Generation	✅ Done (cards, summary, missing skills)	100%
+Database Storage	✅ Done (SQLite integrated)	100%
+Dashboard / Filter / Search	✅ Done	100%
+Frontend (Streamlit)	✅ Done	100%
+LLM-based Feedback / Suggestions	⚠ Not implemented	0%
+
+Overall: Core MVP functional (~95% complete); advanced AI feedback pending (~5% left).
 Architecture
-
-Frontend: Streamlit Web App
+Frontend: Streamlit (upload, dashboard)
 Backend: Flask / FastAPI
-Core Engines:
+Engines:
 
 Parsing & NLP preprocessing
 
 Hard Matching Engine
 
-Semantic Matching Engine (LLM + embeddings)
+Semantic Matching Engine (embeddings + LLM)
 
 Scoring Engine
 
-Database: PostgreSQL / SQLite
-Vector Store: Chroma / Pinecone for embeddings
-
-Flow:
-
-Frontend (Streamlit) 
-     ↓
-Backend (Flask/FastAPI) 
-     ↓
-Parsing → Hard Match → Semantic Match → Scoring Engine
-     ↓
-Vector Store + Database
-     ↓
-Recruiter Dashboard
-
-Tech Stack
-
-Core AI Engine:
-
-Python, SpaCy, NLTK
-
-TF-IDF, BM25
-
-Web Application:
-
-Frontend: Streamlit
-
-Backend: Flask / FastAPI
-
-Database: PostgreSQL / SQLite
+Database: SQLite
