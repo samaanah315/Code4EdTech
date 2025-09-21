@@ -1,0 +1,16 @@
+JAY RAJ
+jayraj10@gmail.com | +91 9876543210 | LinkedIn | GitHub
+
+Summary
+Aspiring Data Analyst with hands-on experience in Python, SQL, Pandas, NumPy, Matplotlib, Seaborn...
+
+Education
+B.Tech in Computer Science and Engineering, CGPA 7.5, 2021-2025
+
+Skills
+Python, SQL, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Excel, BeautifulSoup
+
+Projects
+• Data-Driven Analysis of MHT-CET 2024 Engineering College Cutoffs: Extracted real-time cutoff data using Python and SQL, cleaned and transformed data, performed EDA, built interactive Power BI dashboard.
+• Weather Data Analysis Dashboard – Power BI Project: Developed 5-page interactive Power BI dashboard analyzing rainfall, temperature, humidity, wind speed, applied DAX for KPIs, created dynamic visualizations.
+• Music Store Sales & Customer Insights Analysis: Analyzed 11-table MySQL database, wrote optimized queries, performed multi-table analysis for actionable insights.

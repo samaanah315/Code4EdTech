@@ -1,0 +1,19 @@
+Pavan Kalyan
+pavankalyan462@gmail.com | 9876543210 | LinkedIn | GitHub
+
+Objective
+Enthusiastic and detail-oriented Data Analyst with hands-on experience in Python, SQL, and data visualization. Skilled in conducting in-depth data analysis, web scraping, and building interactive dashboards. Proven ability to generate actionable insights and communicate findings clearly.
+
+Skills
+Python, SQL, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Scikit-learn, BeautifulSoup, Excel, Tableau
+
+Education
+B.Sc. in Physics, Bharti Vidyapeeth Pune, 2020-Nov
+
+Projects
+• Data Analysis on Used Car Listings: Scraped car data from cars24.com, performed data cleaning and EDA using Pandas and NumPy, built visualizations in Seaborn and Matplotlib, derived insights on pricing trends by brand, mileage, and age.
+• Analysis of Pizza Hut’s Sales Data using SQL: Analyzed sales data using SQL, wrote complex queries, created reports on revenue, top-selling items, and location-based sales performance.
+• Organizational Hierarchy Management Using SQL: Designed relational database for company hierarchy, ensured referential integrity, wrote SQL queries for role counts, and derived insights from structured tables.
+
+Certifications
+• Advanced Data Science with Python – FutureSkills Prime | NASSCOM | April 2025
